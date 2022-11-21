@@ -1,0 +1,44 @@
+.works {
+    padding-top: 0;
+  }
+  
+  .works .works-images {
+    display: flex;
+  }
+  
+  .works-images .work {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .wraper{
+    position: relative;
+  }
+  .overlay-box{
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    border-radius: 0px;
+    background: rgba(47, 48, 58, 0.8);
+    left: 0;
+    bottom: 0;
+  }
+  .overlay-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    padding: 27px;
+  
+    color: #FFFFFF;
+  }
+  
+  .works .works-images .item:not(:last-child) {
+    margin-right: 30px;
+  }

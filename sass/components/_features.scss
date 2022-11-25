@@ -1,21 +1,21 @@
-.features_section{
+.features__section{
     padding-bottom: 47px;
   }
   
-  .features {
+  .features__item {
     display: flex;
     flex-wrap: wrap;
   
   }
   
-  .features .item {
+  .features__item .item {
     width: 270px;
   }
   
-  .features .item:not(:last-child) {
+  &:not(:last-child) {
     margin-right: 30px;
   }
-  .features .features_title {
+  .features__item .features__title {
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.14;
@@ -24,7 +24,7 @@
     margin-bottom: 10px;
   }
   
-  .features .feature_text {
+  .features .feature__text {
     line-height: 1.71;
     margin-bottom: 0;
     margin-top: 0;
@@ -47,7 +47,7 @@
     overflow: hidden;
   }
   
-  .features_section {
+  .features__section {
     padding-bottom: 47px;
   }
   
@@ -78,7 +78,7 @@
     padding-bottom: 13.5px;
   }
   
-  .icon_container {
+  .icon__container {
     width: 270px;
     height: 120px;
     background: #f5f4fa;

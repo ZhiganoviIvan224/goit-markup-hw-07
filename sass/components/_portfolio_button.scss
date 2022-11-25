@@ -47,18 +47,18 @@
   
   }
   
-  .button-secondary:not(:last-child) {
+  &:not(:last-child) {
     margin-right: 8px;
   }
   
-  .button-primary:hover,
-  .button-primary:focus {
+  &:hover,
+  &:focus {
     color: var(--title-text-color);
     background-color: var(--background-color);
   }
   
-  .button-secondary:hover,
-  .button-secondary:focus {
+  &:hover,
+  &:focus {
     color: var(--button-white-color);
     background-color: var(--accent-color);
   }

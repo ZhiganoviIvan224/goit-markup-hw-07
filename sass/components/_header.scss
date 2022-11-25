@@ -11,7 +11,7 @@
   }
   
   
-  .site_nav .item:not(:last-child) {
+  &:not(:last-child) {
     margin-right: 50px;
   }
   
@@ -33,7 +33,7 @@
     color: var(--accent-color);
   }
   
-  .site_nav .active::after{
+  &::after{
     position: absolute;
     left: 0px;
     bottom: -1px;
@@ -61,8 +61,8 @@
 */
   
   
-  .site_nav .link:hover,
-  .site_nav .link:focus {
+  &:hover,
+  &:focus {
     color: var(--accent-color);
   }
   
@@ -101,12 +101,12 @@
     transition: opacity 250ms,visibility 250ms linear ;
   }
   
-  .contact .item:not(:last-child)
+  &:not(:last-child)
    { margin-right: 50px;
   }
   
-  .contact .link:hover,
-  .contact .link:focus {
+  &:hover,
+  &:focus {
     color: var(--accent-color);
   }
 

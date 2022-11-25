@@ -1,9 +1,9 @@
 .hero {
     background-color: var(--background-section);
     text-align: center;
+   
     padding-top: 200px;
     padding-bottom: 200px;
-  
   }
   
   .overlay{
@@ -23,7 +23,7 @@
   
   
   
-  .hero .hero_title {
+  .hero .hero__title {
         display: block;
         width: 696px;
         text-align: center;

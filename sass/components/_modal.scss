@@ -59,8 +59,8 @@
     transform: fill 250ms var(--function-transition);
   }
   
-  .close-btn:hover,
-  .close-btn:focus {
+  &:hover,
+  &:focus {
     fill: var(--accent-color);
   }
   
@@ -98,8 +98,8 @@
   }
   
   
-  .modal-form-input:focus + .modal-form-icon,
-  .modal-form-input:hover + .modal-form-icon {
+  &:focus + .modal-form-icon,
+  &:hover + .modal-form-icon {
     fill: var(--accent-color);
   }
   
@@ -133,10 +133,10 @@
     padding-left: 42px;
   }
   
-  .modal-form-input:hover,
-  .modal-form-input:focus,
-  .modal-form-message:hover,
-  .modal-form-message:focus {
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus {
     cursor: pointer;
     outline: none;
     border: 1px solid var(--accent-color);
@@ -226,7 +226,7 @@
   
     transform: background-color 250ms var(--function-transition);
   }
-  .modal-form-btn:hover,
-  .modal-form-btn:focus{
+  &:hover,
+  &:focus{
     background-color:#107fd4;
   }

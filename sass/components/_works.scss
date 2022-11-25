@@ -39,6 +39,6 @@
     color: #FFFFFF;
   }
   
-  .works .works-images .item:not(:last-child) {
+  &:not(:last-child) {
     margin-right: 30px;
   }
